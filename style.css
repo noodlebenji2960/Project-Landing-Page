@@ -1,0 +1,174 @@
+:root {
+    font-family: Roboto, Ubuntu, sans-serif;
+    margin: 0px;
+}
+
+
+.header {
+    height: auto;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.header h1 {
+    padding: 0px 0px 0px 50px;
+    font-size: 24px;
+}
+
+.header-links a, ul {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+/* --------------------------------end of header */
+
+.top-banner {
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 50px 0px 100px 0px;
+    margin: auto;
+    display: flex;
+}
+
+.banner-child-left {
+    text-align: left;
+    width: 400px;
+    margin: 20px;
+}
+
+.banner-child-left h1 {
+    width: 400px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner-child-left button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 10px 40px 10px 40px;
+}
+
+.banner-child-right {
+    width: 45vw;
+    height: auto;
+    background-color: #6D747D;
+
+}
+
+/* --------------------------------end of banner */
+
+.random-info {
+    width: 100vw;
+    text-align: center;
+    color: #1F2937;
+    padding: 100px 0px 100px 0px;
+}
+
+.random-info h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0px 0px;
+}
+
+.random-info p {
+    margin: 180px 0px;
+    color: #1F2937;
+}
+
+.rounded-box {
+    display: inline-block;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    border-width: 4px;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+}
+
+/* ----------------------------------end of info */
+
+.quote-section {
+    background-color: #E5E7EB;
+    text-align: center;
+    justify-content: center;
+    color: #1F2937;
+    padding: 100px 0px 100px 0px;
+    margin: auto;
+    display: flex;
+}
+
+.quote p{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    max-width: 800px;
+    text-align: left;
+    margin: 0px;
+}
+
+.quote-who p{
+    max-width: 800px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    text-align: right;
+    margin: 0px;
+}
+
+/* ---------------------------------end of quote */
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.call-to-action {
+    width: 1000px;
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.call-to-action button {
+    height: auto;
+    width: 150px;
+    font-size: 18px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    padding: 0px 40px;
+}
+
+
+/* ---------------------------end of call to action */
+
+.footer {
+background-color: #1F2937;
+text-align: center;
+color: #E5E7EB;
+padding: 20px 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
